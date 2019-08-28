@@ -8,26 +8,30 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Wed, 28 Aug 2019 13:31:32 GMT</pubDate>
+    <pubDate>Wed, 28 Aug 2019 14:13:49 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>Hello World</title>
-      <link>https://mowenpan.xyz/post/4a17b156.html</link>
-      <guid>https://mowenpan.xyz/post/4a17b156.html</guid>
-      <pubDate>Wed, 28 Aug 2019 10:46:53 GMT</pubDate>
+      <title>乘风</title>
+      <link>https://mowenpan.xyz/post/702df13b.html</link>
+      <guid>https://mowenpan.xyz/post/702df13b.html</guid>
+      <pubDate>Wed, 28 Aug 2019 14:05:45 GMT</pubDate>
       <description>
       
         
         
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+          &lt;blockquote&gt;
+&lt;p&gt;  乘风好去，长空万里，直下看河山。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;风于此处交汇&lt;br&gt;只要尽力去飞&lt;br&gt;就能够乘风&lt;br&gt;乘风好去&lt;br&gt;尽情歌唱就能够传达&lt;/p&gt;
+&lt;p&gt;风的方向变得紊乱&lt;br&gt;黑暗的、空洞的风&lt;br&gt;癫狂，暴乱、
         
       
       </description>
       
-      <content:encoded><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content:encoded>
+      <content:encoded><![CDATA[<blockquote><p>  乘风好去，长空万里，直下看河山。</p></blockquote><p>风于此处交汇<br>只要尽力去飞<br>就能够乘风<br>乘风好去<br>尽情歌唱就能够传达</p><p>风的方向变得紊乱<br>黑暗的、空洞的风<br>癫狂，暴乱、急走<br>忘记语言，忘记脚步<br>乘风起舞</p><p>穿过我的胸膛的你的手<br>尘封的记忆<br>眼泪，笑容，怒火，生命<br>流水无痕，笑靥无声<br>归来仍少年</p><p>宿命的对决<br>超越时间，跳跃空间<br>指尖跳动的旋律<br>受想行识，生死别离<br>叶落需归根 </p>]]></content:encoded>
       
-      <comments>https://mowenpan.xyz/post/4a17b156.html#disqus_thread</comments>
+      <comments>https://mowenpan.xyz/post/702df13b.html#disqus_thread</comments>
     </item>
     
   </channel>
