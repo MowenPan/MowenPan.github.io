@@ -297,6 +297,22 @@ div {
                     text-decoration: underline;
                 }
             }
+			.taglist {
+            margin: 0 0 30px 0;
+            a {
+                padding:0px 5px;
+                margin:3px;
+                display: inline-block;
+                border: 1px solid rgba(99, 96, 96, 0.8);
+                 border-radius: 999em;
+                 color: #aaa;
+                 &:hover {
+                    color: #fff;
+                     border: 1px solid #1a8d76;
+                     background: #1a8a76;
+                }
+            }
+        }
         }
         .caption {
             color: #444;
@@ -339,6 +355,32 @@ div {
                     text-decoration: underline;
                 }
             }
+        }
+    }
+    .tagcloud {
+        margin: 0 0 30px 0;
+        a {
+            padding:0px 5px;
+            margin:3px;
+            display: inline-block;
+            border: 1px solid rgba(99, 96, 96, 0.8);
+             border-radius: 999em;
+             color: #aaa;
+             &:hover {
+                color: #fff;
+                 border: 1px solid #1a8d76;
+                 background: #1a8a76;
+            }
+        }
+    }
+    .one-tag-list {
+        margin: 30px 0;
+        .tag-name {
+            .tag-text{
+                margin-left: 5px;
+                 font-size: 16px;
+                 font-weight: bold;
+              }
         }
     }
     .tags {

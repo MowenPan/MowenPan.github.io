@@ -67,6 +67,12 @@ menu:
   - page: archive
     directory: archives/
     icon: fa-archive
+  - page: tags
+    directory: tags/
+	  icon: fa-tags
+  - page: history
+    directory: timeline/
+    icon: fa-history
   - page: about
     directory: about/
     icon: fa-user
@@ -90,11 +96,11 @@ links:
 
 timeline:
   - num: 1
-    word: 2014/06/12-Start
+    word: 2019-08-26 建立博客
   - num: 2
-    word: 2014/11/29-XXX
+    word: 2019-08-30 添加历史页面
   - num: 3
-    word: 2015/02/18-DDD
+    word: Writing
   - num: 4
     word: More
 
