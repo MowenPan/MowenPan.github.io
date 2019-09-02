@@ -53,7 +53,23 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 6
+  order_by: -date
+
+archive_generator:
+  enabled: true
+  per_page: 30
+  yearly: true
+  monthly: true
+  daily: false
+  order_by: -date
+
+category_generator:
+  per_page: 30
+  order_by: -date
+
+tag_generator:
+  per_page: 30
   order_by: -date
   
 # Category & Tag
@@ -123,3 +139,26 @@ encrypt:
   enable: true
   default_abstract: 这是一篇加密文章，内容可能是个人情感宣泄或者收费技术。如果你确实想看，请与我联系。
   default_message: 输入密码，查看文章。
+
+beautify:
+  types:
+    - html
+    - css
+    - js
+  exclude:
+    - '*.min.css'
+    - '*.min.js'
+  html:
+    'indent_inner_html': true
+    'indent_size': 4
+    'indent_with_tabs': true
+    # More Options (https://github.com/beautify-web/js-beautify/blob/master/README.md)
+  css:
+    'indent_size': 4
+    'newline_between_rules': true
+    'indent_with_tabs': true
+    # More Options (https://github.com/beautify-web/js-beautify/blob/master/README.md)
+  js:
+    'indent_size': 4
+    'indent_with_tabs': true
+    # More Options (https://github.com/beautify-web/js-beautify/blob/master/README.md)
