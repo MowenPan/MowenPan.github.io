@@ -46,7 +46,7 @@ canvas_nest:
   enable: true ## If you want to use dynamic background please set the value to true, you can also fill the following parameters to customize the dynamic effect, or just leave them blank to keep the default effect.
   color: "255,105,180" ## RGB value of the color, e.g. "100,99,98"
   opacity: 0.8 ## Transparency of lines, e.g. "0.7"
-  zIndex: 1 ## The z-index property of the background, e.g. "-1"
+  zIndex: -1 ## The z-index property of the background, e.g. "-1"
   count: 150 ## Quantity of lines, e.g. "150"
 donate:
   enable: true ## If you want to display the donate button after each post, please set the value to true and fill the following items on your need. You can also enable donate button in a page by adding a "donate: true" item to the front-matter.
