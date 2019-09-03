@@ -1,0 +1,10 @@
+.widget
+  .widget-title
+    i(class='fa fa-music')= ' ' + __('music')
+  - for (var i in theme.music)
+    ul
+    a(href='#{theme.music[i].url}' title='#{theme.music[i].title}' target='_blank') #{theme.music[i].title}
+<!-- 网易云播放器 -->
+<div style="display: table; text-align: center; width: 500; height: 360px;margin-left: -30px">
+<embed src="https://music.163.com/outchain/player?type=0&amp;id=688403803&amp;auto=1&amp;height=430" width="290" height="100%" frameborder="no" marginwidth="0" marginheight="0"></embed>
+</div>
