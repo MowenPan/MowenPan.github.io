@@ -16,9 +16,9 @@ timezone:
 url: https://mowenpan.xyz/
 root: /
 permalink: post/:abbrlink.html
-abbrlink: 
-    alg: crc32
-    rep: hex
+abbrlink:
+  alg: crc32
+  rep: hex
 permalink_defaults:
 
 # Directory
@@ -46,13 +46,13 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 8
   order_by: -date
 
@@ -71,7 +71,7 @@ category_generator:
 tag_generator:
   per_page: 15
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -114,7 +114,7 @@ feed:
   path: rss2.xml
   limit: 15
   hub:
-  content: 'true'
+  content: "true"
 
 live2d:
   enable: true
@@ -146,19 +146,19 @@ beautify:
     - css
     - js
   exclude:
-    - '*.min.css'
-    - '*.min.js'
+    - "*.min.css"
+    - "*.min.js"
   html:
-    'indent_inner_html': true
-    'indent_size': 4
-    'indent_with_tabs': true
+    "indent_inner_html": true
+    "indent_size": 4
+    "indent_with_tabs": true
     # More Options (https://github.com/beautify-web/js-beautify/blob/master/README.md)
   css:
-    'indent_size': 4
-    'newline_between_rules': true
-    'indent_with_tabs': true
+    "indent_size": 4
+    "newline_between_rules": true
+    "indent_with_tabs": true
     # More Options (https://github.com/beautify-web/js-beautify/blob/master/README.md)
   js:
-    'indent_size': 4
-    'indent_with_tabs': true
+    "indent_size": 4
+    "indent_with_tabs": true
     # More Options (https://github.com/beautify-web/js-beautify/blob/master/README.md)
