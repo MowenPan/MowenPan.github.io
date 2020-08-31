@@ -15,11 +15,14 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://mowenpan.xyz/
 root: /
-permalink: post/:abbrlink.html
-abbrlink:
-  alg: crc32
-  rep: hex
+permalink: post/:year/:month/:day/:uuid.html
+# abbrlink:
+#   alg: crc32
+#   rep: hex
 permalink_defaults:
+pretty_urls:
+  trailing_index: false
+  trailing_html: false
 
 # Directory
 source_dir: source
@@ -138,7 +141,7 @@ live2d:
 encrypt:
   enable: true
   abstract: 这是一篇加密文章，内容可能是个人情感宣泄或者收费技术。如果你确实想看，请与我联系。
-  message: 输入密码，查看文章。
+  message: 请输入从管理员处获得的密码以查看文章内容。
 
 beautify:
   types:
@@ -162,3 +165,12 @@ beautify:
     "indent_size": 4
     "indent_with_tabs": true
     # More Options (https://github.com/beautify-web/js-beautify/blob/master/README.md)
+toc:
+  maxdepth: 8
+  class: toc
+  slugify: transliteration
+  decodeEntities: false
+  anchor:
+    position: before
+    symbol: "#"
+    style: header-anchor
